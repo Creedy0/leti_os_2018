@@ -1,6 +1,7 @@
 CODE SEGMENT
  ASSUME CS:CODE, DS:DATA, ES:DATA, SS:ASTACK
- 
+
+RStack db 64 dup (0) 
 
 MY_INT	PROC	FAR              ;Пользовательское прерывание
 	
@@ -10,9 +11,12 @@ MY_INT	PROC	FAR              ;Пользовательское прерыван�
 		KEEP_IP 	dw 0
 		KEEP_CS 	dw 0		
 		KEEP_ES 	dw 0
-		
+		KEEP_SP  	dw 0
+		KEEP_SS  	dw 0
 	IntCode:
 	
+		mov		KEEP_SP, sp
+		mov 	KEEP_SS, ss
 		push	ax
 		push	dx
 		push	ds
@@ -52,6 +56,8 @@ MY_INT	PROC	FAR              ;Пользовательское прерыван�
 		pop 	ds
 		pop 	dx
 		pop 	ax
+		mov 	sp, KEEP_SP
+		mov 	ss, KEEP_SS
 		mov 	al, 20h
 		out 	20h, al
 		iret
