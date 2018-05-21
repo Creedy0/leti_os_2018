@@ -1,3 +1,4 @@
+git remote add os18 git@github.com:JAkutenshi/leti_os_2018.git
 git remote add MihailovYA https://github.com/YuraMihailov123/leti_os_2018.git
 git remote add VergeychickGL https://github.com/gglebaty/leti_os_2018.git
 git remote add MedvedevGO https://github.com/glebmedvedev/leti_os_2018.git
@@ -27,3 +28,9 @@ git remote add MiheevaEE https://github.com/katierm/leti_os_2018.git
 git remote add StepanovaSI https://github.com/PeppaPig153/leti_os_2018.git
 git remote add TimofeevDA https://github.com/datdimotim/leti_os_2018.git
 git remote add YakovlevEA https://github.com/EgorYackovleff/leti_os_2018.git
+git remote add BazarovIA https://github.com/ilmb/leti_os_2018.git
+git remote add DainovichA https://github.com/aDainovich/leti_os_2018.git
+git remote add TokunMS https://github.com/Creedy0/leti_os_2018.git
+git remote add PopovNV https://github.com/Nikitapopov/leti_os_2018.git
+git remote add LubchukDV https://github.com/DenisLubchyk/leti_os_2018.git
+git remote add LipendinAA https://github.com/FRESHZOIDf/leti_os_2018.git

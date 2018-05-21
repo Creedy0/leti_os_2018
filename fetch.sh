@@ -13,7 +13,7 @@ git fetch LavrenkovaEL
 git fetch TereshchenkoVN
 git fetch KalashnikovMA
 git fetch SharipovaR
-git fetch VergeychikGL
+git fetch VergeychickGL
 git fetch VerohaVN
 git fetch FedianinNI
 git fetch NikitinKV
@@ -27,3 +27,9 @@ git fetch MiheevaEE
 git fetch StepanovaSI
 git fetch TimofeevDA
 git fetch YakovlevEA
+git fetch BazarovIA
+git fetch DainovichA
+git fetch TokunMS
+git fetch PopovNV
+git fetch LubchukDV
+git fetch LipendinAA
