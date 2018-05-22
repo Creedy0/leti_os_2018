@@ -17,6 +17,10 @@ MY_INT	PROC	FAR              ;Пользовательское прерыван�
 	
 		mov		KEEP_SP, sp
 		mov 	KEEP_SS, ss
+		mov		dx, cs
+		mov 	ss, dx
+		mov		sp, 40h
+		
 		push	ax
 		push	dx
 		push	ds
